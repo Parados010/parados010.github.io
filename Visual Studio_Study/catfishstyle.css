@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    text-decoration: blueviolet underline wavy;
+    letter-spacing: 15px;
+    font-weight: 500;
+    font-size: 350%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+    font-family: monospace;
+}
+
+/* 클래스 post안에 버튼에 마우스를 가져가면 배경색, 글자색변경 */
+.post button:hover {
+    background-color: #780000;
+    color: white;
+}
+
+/* p 글자 두께, 글짜 길이, 밑줄제거 */
+p {
+    font-weight: 100;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* id symbol */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* class symbol */
+.tag {
+    background-color: #fb8500;
+
+}
+
+/* class post안에 a를 hover할때 글씨색, 두께, 배경색, 밑줄추가 */
+.post a:hover {
+    color: #e3d5ca;
+    font-weight: 500;
+    background-color: #fb8500;
+    text-decoration: underline;
+}
+
+/* foot안에 a 텍스트색상 */
+footer a {
+    color: #0096c7;
+}
+
+/* class post 안에 button을 누르면 배경색이 이색으로 */
+.post button:active {
+    background-color: #fb6f92;
+}
+
+/* class post안에 2n번째마다 배경색상변경 */
+.post:nth-of-type(2n) {
+    background-color: #87ff9d;
+}
+
+/* h2 첫번째글씨의 크기를 크게 설정 */
+h2::first-letter {
+    font-size: 50px;
+}
+
+/* p문장에서 첫번째줄 글자색 설정 */
+p::first-line {
+    color: palevioletred;
+}
+
+/* p문장중에서 마우스로 드래그하면 보여질 색설정 */
+p::selection {
+    background-color: yellow;
+}
